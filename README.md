@@ -35,10 +35,13 @@ git clone https://github.com/ManvendraPardeshi03/resumematcher.git
 cd resumematcher
 ```
 2. **Install required packages**
+```bash
   pip install -r requirements.txt
-
+```
 3. **Launch the Streamlit website**
+```bash
   streamlit run main.py
+```
 
 ---
 
@@ -54,8 +57,9 @@ To create one:
 
 **Set up your environment**
 Create a .env file and add your Gemini API key:
+```bash
   GEMINI_API_KEY=your_gemini_api_key_here
-  
+```
 ---
 
 ## 📁 Project Structure
