@@ -63,10 +63,11 @@ Create a .env file and add your Gemini API key:
 ---
 
 ## 📁 Project Structure
-
+```bash
 ├── main.py # Streamlit website script
 ├── .env # Environment file for API key
 └── README.md # Project documentation
+```
 
 ---
 
