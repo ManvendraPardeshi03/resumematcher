@@ -64,10 +64,9 @@ Create a .env file and add your Gemini API key:
 
 ## 📁 Project Structure
 
-├── main.py             # Streamlit website script
-├── .env                # Environment file for API key
-├── requirements.txt    # Project dependencies
-└── README.md           # Project documentation
+├── main.py # Streamlit website script
+├── .env # Environment file for API key
+└── README.md # Project documentation
 
 ---
 
@@ -76,10 +75,10 @@ Create a .env file and add your Gemini API key:
 1. Upload your resume as a PDF
 2. Paste the job description in the text area
 3. Click Submit
-4. Get:
-  ✅ Match percentage
-  📉 Missing keywords
-  ✍️ Grammar/spelling feedback
-  💼 Suggested experience updates
+4. Get:  
+   - ✅ Match percentage  
+   - 📉 Missing keywords  
+   - ✍️ Grammar/spelling feedback  
+   - 💼 Suggested experience updates
 
 ---
