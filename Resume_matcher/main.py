@@ -30,7 +30,7 @@ def input_pdf_text(uploaded_file):
     return text
 
 # Streamlit app
-st.title("CAREER CONNECTOR")
+st.title("Resume Matcher")
 st.markdown(
     """
     <style>
@@ -66,13 +66,13 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.header("Welcome to Career Connector!")
-st.write("Career Connector is your go-to tool for optimizing your resume to match job descriptions effectively. Upload your resume and paste the job description to get detailed feedback on how well your resume aligns with the job requirements.")
+st.header("Welcome to Resume Matcher!")
+st.write("Resume Matcher is your go-to tool for optimizing your resume to match job descriptions effectively. Upload your resume and paste the job description to get detailed feedback on how well your resume aligns with the job requirements.")
 st.image("https://assets-global.website-files.com/627c8700df0be67c4b1d533c/65319680bcee14a021a3dc7f_Show_Me_Checker-p-800.png")
 st.write("Our advanced AI technology evaluates your resume against the job description, highlighting areas of improvement, missing keywords, grammar and spelling errors, and much more.")
 
 st.header("How it helps")
-st.write("With Career Connector, you can:")
+st.write("With Resume Matcher, you can:")
 st.write("- Optimize your resume to increase its chances of getting noticed by recruiters.")
 st.write("- Ensure that your resume highlights relevant skills and experiences demanded by the job.")
 st.image("https://img.freepik.com/premium-vector/recruitment-job-search-isometric-concept-use-presentation-social-media-cards-web-banner-illustration_106788-1272.jpg")
@@ -114,8 +114,8 @@ Grammar and Spelling Errors
 Experience Updates in the format of old text -> suggested new text
 Lines where I can add quantifiable figures mostly in '%' or in numbers in the format of old text -> suggested new text"""
         response = get_gemini_repsonse(input_prompt)
-        st.subheader("Career Connector Results:")
+        st.subheader("Resume Matcher Results:")
         st.write(response)
 
 st.markdown('<div class="scroll-down"></div>', unsafe_allow_html=True)
-st.write("Thank you for choosing Career Connector!")
+st.write("Thank you for choosing Resume Matcher!")
